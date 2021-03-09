@@ -1,1 +1,5 @@
-print(f' ')
+numero = input().split(' ')
+a = int(numero[0])
+b = int(numero[1])
+c = int(numero[2])
+MaiorAB = (a)
