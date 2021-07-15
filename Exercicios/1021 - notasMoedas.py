@@ -55,17 +55,17 @@ r = r % 0.05
 
 umcent = r // 0.01
 
-print(f'NOTAS:\n'
-      f'{cem:.0f} nota(s) de R$ 100.00\n'
-      f'{cinq:.0f} nota(s) de R$ 50.00\n'
-      f'{vinte:.0f} nota(s) de R$ 20.00\n'
-      f'{dez:.0f} nota(s) de R$ 10.00\n'
-      f'{cinco:.0f} nota(s) de R$ 5.00\n'
-      f'{dois:.0f} nota(s) de R$ 2.00\n'
-      f'MOEDAS:\n'
-      f'{umreal:.0f} moeda(s) de R$ 1.00\n'
-      f'{cinqcent:.0f} moeda(s) de R$ 0.50\n'
-      f'{vintcinc:.0f} moeda(s) de R$ 0.25\n'
-      f'{dezcent:.0f} moeda(s) de R$ 0.10\n'
-      f'{cincocent:.0f} moeda(s) de R$ 0.05\n'
-      f'{umcent:.0f} moeda(s) de R$ 0.01')
+print(f'NOTAS:')
+print(f'{cem:.0f} nota(s) de R$ 100.00')
+print(f'{cinq:.0f} nota(s) de R$ 50.00')
+print(f'{vinte:.0f} nota(s) de R$ 20.00')
+print(f'{dez:.0f} nota(s) de R$ 10.00')
+print(f'{cinco:.0f} nota(s) de R$ 5.00')
+print(f'{dois:.0f} nota(s) de R$ 2.00')
+print(f'MOEDAS:')
+print(f'{umreal:.0f} moeda(s) de R$ 1.00')
+print(f'{cinqcent:.0f} moeda(s) de R$ 0.50')
+print(f'{vintcinc:.0f} moeda(s) de R$ 0.25')
+print(f'{dezcent:.0f} moeda(s) de R$ 0.10')
+print(f'{cincocent:.0f} moeda(s) de R$ 0.05')
+print(f'{umcent:.0f} moeda(s) de R$ 0.01')
