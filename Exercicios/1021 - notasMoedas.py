@@ -15,7 +15,7 @@ Obs: Utilize ponto (.) para separar a parte decimal.
 """
 
 #ENTRADA
-valor = float(input(''))
+valor = float(input())
 
 # NOTAS
 cem = valor // 100
@@ -54,6 +54,7 @@ cincocent = r // 0.05
 r = r % 0.05
 
 umcent = r // 0.01
+r = r % 0.01
 
 print(f'NOTAS:')
 print(f'{cem:.0f} nota(s) de R$ 100.00')
