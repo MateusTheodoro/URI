@@ -12,7 +12,6 @@ Saída
 Imprima a quantidade mínima de notas e moedas necessárias para trocar o valor inicial, conforme exemplo fornecido.
 
 Obs: Utilize ponto (.) para separar a parte decimal.
-"""
 
 #ENTRADA
 valor = float(input())
@@ -70,3 +69,4 @@ print(f'{vintcinc:.0f} moeda(s) de R$ 0.25')
 print(f'{dezcent:.0f} moeda(s) de R$ 0.10')
 print(f'{cincocent:.0f} moeda(s) de R$ 0.05')
 print(f'{umcent:.0f} moeda(s) de R$ 0.01')
+"""
