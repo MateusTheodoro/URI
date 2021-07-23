@@ -25,5 +25,5 @@ for x in notas:
 
 print('MOEDAS:')
 for z in moedas:
-    print((f'{int((valor,2)/z)} moeda(s) de R${z:.2f}'))
+    print((f'{int((valor)/z)} moeda(s) de R${z:.2f}'))
     valor = valor % z
