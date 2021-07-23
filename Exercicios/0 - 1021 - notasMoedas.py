@@ -70,3 +70,9 @@ print(f'{dezcent:.0f} moeda(s) de R$ 0.10')
 print(f'{cincocent:.0f} moeda(s) de R$ 0.05')
 print(f'{umcent:.0f} moeda(s) de R$ 0.01')
 """
+notas = [100, 50, 20, 10, 5, 2]
+
+for nota in notas:
+
+    print(nota)
+    
