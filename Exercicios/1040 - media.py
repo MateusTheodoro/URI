@@ -41,4 +41,3 @@ elif media >= 5 and media <= 6.9:
         print(f'Media final: {mediaexame:.1f}')
 else:
     print(f'Aconteceu algo de errado! Por favor, reinicie o programa.')
-    
