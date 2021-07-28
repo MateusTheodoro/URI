@@ -1,4 +1,4 @@
 valor = input().split(' ')
-
-for x in valor:
-    print(sorted(x))
+a = int(valor[0])
+b = int(valor[1])
+c = int(valor[2])
