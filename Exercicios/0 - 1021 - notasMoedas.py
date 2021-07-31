@@ -17,14 +17,14 @@ Obs: Utilize ponto (.) para separar a parte decimal.
 valor = float(input(''))
 notas = [100, 50, 20, 10, 5, 2]
 moedas = [1, 0.50, 0.25, 0.10, 0.05, 0.01]
-valor = valor + 0.001
+valor = valor + 0.0001
 
 print('NOTAS:')
 for x in notas:
-    print(f'{int(valor/x)} nota(s) de R${x:.2f}')
+    print(f'{int(valor/x)} nota(s) de R$ {x:.2f}')
     valor = valor % x
 
 print('MOEDAS:')
 for z in moedas:
-    print((f'{int((valor)/z)} moeda(s) de R${z:.2f}'))
+    print((f'{int((valor)/z)} moeda(s) de R$ {z:.2f}'))
     valor = valor % z
