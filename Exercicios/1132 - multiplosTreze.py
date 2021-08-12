@@ -8,8 +8,9 @@ if x >= y:
     for valor in valores:
         if valor % 13 != 0:
             soma.append(valor)
+
 else:
-    valores = list(range(x, y + 1))
+    valores = list(range(x, y +1))
 
     soma = []
 
